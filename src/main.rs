@@ -60,6 +60,7 @@ fn main() {
                 _ => {}
             }
         }
+
         imgui_sdl2.prepare_frame(imgui.io_mut(), &window, &event_pump.mouse_state());
 
         let now = Instant::now();
